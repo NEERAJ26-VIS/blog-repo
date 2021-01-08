@@ -1,0 +1,26 @@
+<html>
+{% load static %}
+<head>
+<link rel="stylesheet" href="{% static "css/1.css" %}"/>
+</head>
+<body bgcolor="#f5e65d">
+<center><h1><u>{{name}}'s Favourites</u></h1></center>
+<div >
+<h2>Player:{{player}}</h2>
+<h3><a href="https://www.instagram.com/virat.kohli/?hl=en">Click Know More</a></h3>
+<img src="{% static "images/virat.webp"%}">  <!-- name of the image stored in images folder -->
+</div>
+<br>
+<div >
+<h2>bird:{{bird}}</h2>
+<h3><a href="https://en.wikipedia.org/wiki/Parrot">Click Know More</a></h3>
+<img src="{% static "images/parrot.jpeg"%}">  <!-- name of the image stored in images folder -->
+</div>
+<br>
+<div>
+<h2>Sub:{{subject}}</h2>
+<h3><a href="https://www.python.org/">Click Know More</a></h3>
+<img src="{% static "images/python.jpg"%}">  <!-- name of the image stored in images folder -->
+</div>
+</body>
+</html>
